@@ -1,14 +1,11 @@
 # Homebridge Mi Smart Plug
 
 [Homebridge](https://homebridge.io) Plugin for Xiaomi Mi Smart Plug
-<p align="center">
-<img src="https://github.com/szaboge/homebridge-mi-smart-plug/blob/main/assets/plug.png?raw=true" width="150">
-</p>
+
+Forked from https://github.com/szaboge/homebridge-mi-smart-plug
 
 ## Supported devices
 - chuangmi.plug.hmi206
-
-If working with your device too, please open an issue to add this list.
 ## Installation
 
 Before installing this plugin, you should install Homebridge using the [official instructions](https://github.com/homebridge/homebridge/wiki).
@@ -17,7 +14,7 @@ Before installing this plugin, you should install Homebridge using the [official
 
 1. Install this plugin using: 
    ```
-   npm install -g homebridge-mi-smart-plug --unsafe-perm
+   npm install -g homebridge-xiaomioutlet-miio --unsafe-perm
    ```
 2. Edit `config.json` manually to add your plug. See below for instructions on that.
 
