@@ -19,7 +19,7 @@ export class MiPlug {
 		return state ? 'ON' : 'OFF';
 	}
 
-    private async connect(): Promise<any> {
+    private async connect(): Promise<MiioDevice> {
         return await miio.device({address: this.ip, token: this.token});
 	}
 
