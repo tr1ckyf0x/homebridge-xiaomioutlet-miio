@@ -1,6 +1,6 @@
 {
   "name": "homebridge-xiaomioutlet-miio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Homebridge plugin for Xiaomi Mi Smart Plug",
   "author": "Vladislav Lisyanskiy <vladislav.lisyanskiy@gmail.com>",
   "license": "MIT",
